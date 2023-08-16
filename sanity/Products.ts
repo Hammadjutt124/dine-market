@@ -57,11 +57,7 @@ export default {
             title: "ProductType",
             of: [{ type: 'string' }]
         },
-        {
-            name: 'listedDate',
-            type: 'datetime',
-            title: 'ListedDate'
-        },
+
         {
             name: 'price',
             type: 'number',
