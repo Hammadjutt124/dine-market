@@ -1,5 +1,4 @@
-
-
+import React from "react"
 const ProductCarousel = ({ ProductData }: any) => {
 
   return (
