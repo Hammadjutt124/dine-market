@@ -7,6 +7,7 @@ import ProductCarousel from '@/components/views/ProductCarousel';
 import { responseType } from '@/components/utils/ProductsDataArrayAndType';
 import Jewellery from '@/components/views/Jewellery';
 import Newslatter from '@/components/views/NewsLatter';
+import Footer from '@/components/views/Footer';
 
 
 async function fetchAllProductsData() {
@@ -33,6 +34,7 @@ export default async function Home() {
       <ProductCarousel ProductData={result} />
       <Jewellery />
       <Newslatter />
+      <Footer />
     </div>
   )
 }
