@@ -32,14 +32,14 @@ const Header = () => {
                     </Link>
                 </li>
             </ul>
-            <div className='border flex items-center text-gray-600 px-3 rounded-md'>
+            {/* <div className='border flex items-center text-gray-600 px-3 rounded-md'>
                 <BiSearch />
                 <input
                     type='text'
                     className='pl-1 pr-5 py-1 w-80'
                     placeholder='Search in Our Store'
                 />
-            </div>
+            </div> */}
             <div className='flex justify-center items-center h-10 w-10 rounded-full bg-gray-300 '>
                 <ShoppingCart className='h-6 w-6' />
             </div>
