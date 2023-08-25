@@ -3,7 +3,7 @@ import Logo from "/public/Logo.webp"
 import Image from 'next/image'
 import Link from 'next/link'
 import { ShoppingCart } from "lucide-react"
-import { BiSearch } from "react-icons/bi";
+
 const Header = () => {
     return (
         <div className='flex justify-between items-center py-6 px-8  '>
