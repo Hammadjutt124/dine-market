@@ -1,4 +1,4 @@
-
+"use client"
 
 // import Image from "next/image";
 // import { Search, ShoppingCart } from "lucide-react";
@@ -81,31 +81,31 @@ const Header = () => {
             <Link href={'/'}>
                 <Image src={Logo} alt='logo' className='w-40' />
             </Link>
-            <div>
-                <ul className='flex gap-x-5'>
-                    <li className='text-lg'>
-                        <Link href={"/female/Female"}>
-                            Female
-                        </Link>
-                    </li>
-                    <li className='text-lg'>
-                        <Link href={"/male/Male"}>
-                            Male
-                        </Link>
-                    </li>
-                    <li className='text-lg'>
-                        <Link href={"/kid"}>
-                            Kid
-                        </Link>
-                    </li>
-                    <li className='text-lg'>
 
-                        <Link href={"/products"}>
-                            All Products
-                        </Link>
-                    </li>
-                </ul>
-            </div>
+            <ul className='flex gap-x-5'>
+                <li className='text-lg'>
+                    <Link href={"/female/Female"}>
+                        Female
+                    </Link>
+                </li>
+                <li className='text-lg'>
+                    <Link href={"/male/Male"}>
+                        Male
+                    </Link>
+                </li>
+                <li className='text-lg'>
+                    <Link href={"/kid"}>
+                        Kid
+                    </Link>
+                </li>
+                <li className='text-lg'>
+
+                    <Link href={"/products"}>
+                        All Products
+                    </Link>
+                </li>
+            </ul>
+
             <div className='border flex items-center text-gray-600 px-3 rounded-md'>
 
                 <Input
