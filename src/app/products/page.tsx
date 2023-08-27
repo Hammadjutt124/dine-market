@@ -1,7 +1,7 @@
 import BASE_PATH_FORAPI from "@/components/shared/BasePath";
 import AllProductsCompo from "@/components/views/AllProducts";
 async function fetchAllProductData() {
-    let res = await fetch(`${BASE_PATH_FORAPI}/api/products?start=0&end=10`, {
+    let res = await fetch(`https://08cvugs0.api.sanity.io/v2023-08-02/data/query/production?query=*%5B_type%3D%3D+%22products%22%5D`, {
         next: {
             revalidate: 120
         }

@@ -98,12 +98,12 @@ const Header = () => {
                         Kid
                     </Link>
                 </li>
-                {/* <li className='text-lg'>
+                <li className='text-lg'>
 
                     <Link href={"/products"}>
                         All Products
                     </Link>
-                </li> */}
+                </li>
             </ul>
 
             <div className='border flex items-center text-gray-600 px-3 rounded-md'>
