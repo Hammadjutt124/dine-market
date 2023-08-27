@@ -99,7 +99,7 @@ const Header = () => {
                 </li>
                 <li className='text-lg'>
 
-                    <Link href={"/products"}>
+                    <Link href={""}>
                         All Products
                     </Link>
                 </li>
