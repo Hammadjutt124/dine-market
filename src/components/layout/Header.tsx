@@ -81,30 +81,31 @@ const Header = () => {
             <Link href={'/'}>
                 <Image src={Logo} alt='logo' className='w-40' />
             </Link>
-            <ul className='flex gap-x-5'>
-                <li className='text-lg'>
-                    <Link href={"/female/Female"}>
-                        Female
-                    </Link>
-                </li>
-                <li className='text-lg'>
-                    <Link href={"/male/Male"}>
-                        Male
-                    </Link>
-                </li>
-                <li className='text-lg'>
-                    <Link href={"/kid"}>
-                        Kid
-                    </Link>
-                </li>
-                <li className='text-lg'>
+            <div>
+                <ul className='flex gap-x-5'>
+                    <li className='text-lg'>
+                        <Link href={"/female/Female"}>
+                            Female
+                        </Link>
+                    </li>
+                    <li className='text-lg'>
+                        <Link href={"/male/Male"}>
+                            Male
+                        </Link>
+                    </li>
+                    <li className='text-lg'>
+                        <Link href={"/kid"}>
+                            Kid
+                        </Link>
+                    </li>
+                    <li className='text-lg'>
 
-                    <Link href={""}>
-                        All Products
-                    </Link>
-                </li>
-            </ul>
-
+                        <Link href={"/products"}>
+                            All Products
+                        </Link>
+                    </li>
+                </ul>
+            </div>
             <div className='border flex items-center text-gray-600 px-3 rounded-md'>
 
                 <Input
