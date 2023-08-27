@@ -98,7 +98,7 @@ const Header = () => {
                     </Link>
                 </li>
                 <li className='text-lg'>
-                    <Link href={"/products"}>
+                    <Link href={"./products"}>
                         All Products
                     </Link>
                 </li>
