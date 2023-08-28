@@ -1,4 +1,4 @@
-"use client"
+
 import { responseType } from '@/components/utils/ProductsDataArrayAndType'
 import ProductDetail from '@/components/views/ProductDetail'
 import React, { FC } from 'react'
