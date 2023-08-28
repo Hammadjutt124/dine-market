@@ -13,7 +13,7 @@ export default class AllProductsCompo extends Component<{ ProdutcData: propsType
     start: number = 10;
     end: number = 20;
     state: { items: Array<oneProductType>, hasMore: boolean } = {
-        items: [...this.props.ProdutcData.productArray],
+        items: [],
         hasMore: true,
     }
     fetchDataFromApiGradually = async (start: number, end: number) => {
