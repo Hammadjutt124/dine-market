@@ -1,3 +1,4 @@
+"use client"
 import BASE_PATH_FORAPI from "@/components/shared/BasePath";
 import AllProductsCompo from "@/components/views/AllProducts";
 
